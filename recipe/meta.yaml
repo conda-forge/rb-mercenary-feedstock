@@ -1,5 +1,5 @@
 {% set name = "mercenary" %}
-{% set version = "0.3.6" %}
+{% set version = "0.4.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 2a084b18f5692c86a633e185d5311ba6d11fc46c802eb414ae05368178078a82
+  sha256: b25a1e4a59adca88665e08e24acf0af30da5b5d859f7d8f38fba52c28f405138
 
 build:
   noarch: generic
